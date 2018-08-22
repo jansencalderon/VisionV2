@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#9f6a53</color>
+    <color name="colorPrimaryDark">#4f2e2c</color>
+    <color name="colorAccent">#354039</color>
+
+    <color name="light_text">#9f9f9f</color>
+    <color name="army_green">#354039</color>
+    <color name="army_redbrown">#673c36</color>
+    <color name="army_lightbrown">#c8ba9d</color>
+    <color name="army_brown">#9f6a53</color>
+    <color name="red">#f96449</color>
+    <color name="army_maroon">#4f2e2c</color>
+
+    <color name="tab_color">#75333333</color>
+</resources>

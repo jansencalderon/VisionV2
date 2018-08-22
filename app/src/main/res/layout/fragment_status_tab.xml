@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StatusFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="74dp"
+            android:background="#750c0c0c"
+            android:orientation="vertical"
+            android:paddingLeft="20dp"
+            android:paddingRight="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/txt_status"
+                    android:layout_width="253dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/squares_bold"
+                    android:text="STATUS"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="40sp" />
+
+                <Button
+                    android:id="@+id/btn_set_listener"
+                    android:layout_width="4dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:fontFamily="@font/squares_bold"
+                    android:text="…"
+                    android:textColor="@color/army_lightbrown"
+                    android:textSize="40sp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/squares_bold"
+                android:text="Click the toggle to turn ON/OFF modules"
+                android:textColor="#808080"
+                android:textSize="8sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/tab_color"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txt_sms_location_sending"
+                android:layout_width="239dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:fontFamily="@font/squares_bold"
+                android:gravity="center_vertical"
+                android:paddingLeft="20dp"
+                android:text="LOC TRANSMISSION MODE"
+                android:textColor="@color/army_brown"
+                android:textSize="16sp" />
+
+            <ToggleButton
+                android:id="@+id/toggle_location_sending_mode"
+                android:layout_width="14dp"
+                android:layout_height="64dp"
+                android:layout_weight="1"
+                android:background="@color/colorPrimary"
+                android:fontFamily="@font/squares_bold"
+                android:text="ToggleButton"
+                android:textColor="@color/army_lightbrown"
+                android:textOff="SMS"
+                android:textOn="NET"
+                android:textSize="24sp" />
+
+        </LinearLayout>
+
+        <!--LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/tab_color"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txt_commands"
+                android:layout_width="239dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:fontFamily="@font/squares_bold"
+                android:gravity="center_vertical"
+                android:paddingLeft="20dp"
+                android:text="COMMANDS"
+                android:textColor="@color/army_brown"
+                android:textSize="18sp" />
+
+            <ToggleButton
+                android:id="@+id/toggle_commands"
+                android:layout_width="14dp"
+                android:layout_height="64dp"
+                android:layout_weight="1"
+                android:background="@color/colorPrimary"
+                android:fontFamily="@font/squares_bold"
+                android:text="ToggleButton"
+                android:textColor="@color/army_lightbrown"
+                android:textSize="24sp" />
+
+        </LinearLayout-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/tab_color"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ToggleButton
+                android:id="@+id/session_toggle"
+                android:layout_width="wrap_content"
+                android:layout_height="72dp"
+                android:layout_weight="1"
+                android:background="@color/army_brown"
+                android:fontFamily="@font/squares_bold"
+                android:text="ToggleButton"
+                android:textColor="@color/army_lightbrown"
+                android:textOff="START SESSION"
+                android:textOn="STOP SESSION"
+                android:textSize="30sp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/tab_color"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_hide_app"
+                android:layout_width="wrap_content"
+                android:layout_height="72dp"
+                android:layout_weight="1"
+                android:background="@color/colorPrimary"
+                android:fontFamily="@font/squares_bold"
+                android:text="HIDE APP"
+                android:textColor="@color/army_lightbrown"
+                android:textSize="30sp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

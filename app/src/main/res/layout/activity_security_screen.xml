@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    tools:context=".SecurityScreen">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/squares_bold"
+            android:gravity="center"
+            android:text="PLEASE INPUT YOUR SECURITY PASSWORD"
+            android:textColor="@color/army_green"
+            android:textSize="24sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal"
+            android:weightSum="4">
+
+            <EditText
+                android:id="@+id/sp_0"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="6dp"
+                android:layout_weight="1"
+                android:background="#90FFFFFF"
+                android:ems="1"
+                android:focusedByDefault="true"
+                android:fontFamily="@font/squares_bold"
+                android:gravity="center"
+                android:hint="0"
+                android:imeOptions="actionNext"
+                android:inputType="number"
+                android:maxEms="1"
+                android:maxLength="1"
+                android:padding="8dp"
+                android:textColor="@color/army_green"
+                android:textSize="50sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/sp_1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="6dp"
+                android:layout_weight="1"
+                android:background="#90FFFFFF"
+                android:ems="1"
+                android:fontFamily="@font/squares_bold"
+                android:gravity="center"
+                android:hint="0"
+                android:imeOptions="actionNext"
+                android:inputType="number"
+                android:maxEms="1"
+                android:maxLength="1"
+                android:padding="8dp"
+                android:textColor="@color/army_green"
+                android:textSize="50sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/sp_2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="6dp"
+                android:layout_weight="1"
+                android:background="#90FFFFFF"
+                android:ems="1"
+                android:fontFamily="@font/squares_bold"
+                android:gravity="center"
+                android:hint="0"
+                android:imeOptions="actionNext"
+                android:inputType="number"
+                android:maxEms="1"
+                android:maxLength="1"
+                android:padding="8dp"
+                android:textColor="@color/army_green"
+                android:textSize="50sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/sp_3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="6dp"
+                android:layout_weight="1"
+                android:background="#90FFFFFF"
+                android:ems="1"
+                android:fontFamily="@font/squares_bold"
+                android:gravity="center"
+                android:hint="0"
+                android:imeOptions="actionDone"
+                android:inputType="number"
+                android:maxEms="1"
+                android:maxLength="1"
+                android:padding="8dp"
+                android:textColor="@color/army_green"
+                android:textSize="50sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/vision_logo_solo"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            app:srcCompat="@drawable/logo_solo" />
+    </LinearLayout>
+</ScrollView>

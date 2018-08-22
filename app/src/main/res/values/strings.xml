@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Vision</string>
+
+
+    <string name="title_status">Status</string>
+    <string name="title_functions">Functions</string>
+    <string name="title_map">Map</string>
+    <string name="mapbox_access_token">pk.eyJ1IjoicmVyb3NhIiwiYSI6ImNqaXZwMDA0NzI0Zm8za21zYno1cTFkOG0ifQ.B812UDhUQ-2bBiXAMcWtFg</string>
+</resources>
